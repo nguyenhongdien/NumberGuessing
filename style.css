@@ -1,0 +1,35 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#div1{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto auto;
+    text-align: center;
+}
+
+#titleTxt{
+    display: flex;
+    justify-content: center;
+}
+
+#guessedNumTxt{
+    color: rgb(0, 132, 255);
+}
+
+#numInp{
+    width: 200px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#submitBtn{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#reloadBtn{
+    font-size: 20px;
+    cursor: pointer;
+}
